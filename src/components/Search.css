@@ -1,0 +1,98 @@
+.search-bar {
+    height: 96px;
+    z-index: 1;
+}
+
+.search-logo {
+    height: 36px;
+    border-radius: 6px;
+    filter: grayscale(100%);
+}
+
+.search-top {
+    height: 50%;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+
+.search-options {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.search-option {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 50px;
+}
+
+.option-selected {
+    background-color: white;
+    color: #b91111;
+}
+
+.search-bottom {
+    background-color: rgb(26, 26, 26);
+    height: 50%;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.search-wrapper {
+    width: 80%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    background-color: rgb(66, 66, 66);
+    border-radius: 50px;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    height: 24px;
+    left: 0;
+    top: 0;
+    padding-left: 12px;
+}
+
+.account-icon {
+    background-color: rgb(255, 89, 0);
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.search-btn {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 32px;
+    height: 32px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    color: #b91111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+}

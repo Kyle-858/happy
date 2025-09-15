@@ -1,0 +1,23 @@
+.map {
+    height: 100vh;
+}
+
+.bottom-modal {
+    background-color: black;
+    height: 240px;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.bars-list {
+    background-color: rgb(26, 26, 26);
+    width: 95%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8px;
+}
