@@ -4,9 +4,9 @@
 }
 
 .search-logo {
-    height: 36px;
+    height: 26px;
     border-radius: 6px;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
 }
 
 .search-top {

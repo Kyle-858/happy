@@ -12,7 +12,7 @@
 }
 
 .bars-list {
-    background-color: rgb(26, 26, 26);
+    background-color: #610d0d;
     width: 95%;
     height: 200px;
     position: absolute;
@@ -20,6 +20,9 @@
     left: 50%;
     transform: translateX(-50%);
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .modal-title {
@@ -32,9 +35,9 @@
 }
 
 .bar {
-    width: 100%;
+    width: 95%;
     height: 48px;
-    background-color: rgb(33, 33, 33);
+    background-color: #b91111;
     margin-top: 6px;
     border-radius: 8px;
     display: flex;

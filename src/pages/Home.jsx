@@ -13,7 +13,7 @@ const Home = () => {
     const [option, setOption] = useState('map')
 
     useEffect(() => {
-            // Simulate a 2-second loading delay
+            // Simulate a 2-second loading
             const timer = setTimeout(() => {
                 setLoading(false);
             }, 2000);
