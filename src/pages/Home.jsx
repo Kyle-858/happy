@@ -1,6 +1,6 @@
-import React from 'react'
 import Loading from '../components/Loading.jsx'
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import Search from '../components/Search.jsx'
 import map from '../assets/map.jpg'
 import './Home.css'
@@ -32,15 +32,17 @@ const Home = () => {
             <img src={map} alt="" className="map"/>
             <div className="bottom-modal">
                 <div className="bars-list">
-                    <div className="bar">
-                        <div className="bar-text-left">
-                            <div className="bar-name">AppleBee's</div>
-                            <div className="bar-distance">7.1m</div>
+                    <Link to='/barinfo'>
+                        <div className="bar">
+                            <div className="bar-text-left">
+                                <div className="bar-name">AppleBee's</div>
+                                <div className="bar-distance">7.1m</div>
+                            </div>
+                            <div className="bar-text-right">
+                                <div className="bar-happyhour">HH: 4-6pm</div>
+                            </div>
                         </div>
-                        <div className="bar-text-right">
-                            <div className="bar-happyhour">HH: 4-6pm</div>
-                        </div>
-                    </div>
+                    </Link>
                     <div className="bar">
                         <div className="bar-text-left">
                             <div className="bar-name">Chili's</div>
